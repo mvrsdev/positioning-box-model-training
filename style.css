@@ -1,0 +1,11 @@
+section {
+  margin-bottom: 60px;
+}
+
+div {
+  border: 3px solid;
+}
+
+.inline-container > div {
+  display: inline;
+}
