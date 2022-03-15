@@ -11,7 +11,13 @@
 
     <style>
       div {
-        position: static;
+        position: relative;
+      }
+
+      .positioned-item {
+        position: relative;
+        left: 50px;
+        top: 30px;
       }
     </style>
 
@@ -19,19 +25,17 @@
   </head>
   <body>
     <section>
-      <div>We are RELATIVE elements 1</div>
-      <div>We are RELATIVE elements 2</div>
-      <div>We are RELATIVE elements 3</div>
-      <div>We are RELATIVE elements 4</div>
-      <div>We are RELATIVE elements 5</div>
+      <div class="positioned-item">RELATIVE elements 1</div>
+      <div>RELATIVE elements 2</div>
+      <div>RELATIVE elements 3</div>
+      <div>RELATIVE elements 4</div>
+      <div>RELATIVE elements 5</div>
     </section>
 
     <section class="inline-container">
-      <div>We are RELATIVE INLINE elements 1</div>
-      <div>We are RELATIVE INLINE elements 2</div>
-      <div>We are RELATIVE INLINE elements 3</div>
-      <div>We are RELATIVE INLINE elements 4</div>
-      <div>We are RELATIVE INLINE elements 5</div>
+      <div class="positioned-item">RELATIVE INLINE elements 1</div>
+      <div>RELATIVE INLINE elements 2</div>
+      <div>RELATIVE INLINE elements 3</div>
     </section>
   </body>
 </html>

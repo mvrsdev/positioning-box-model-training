@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        background: #eee;
+      }
+
+      div {
+        opacity: 1;
+      }
+
+      main.card {
+        background: white;
+        box-shadow: 2px 2px 3px 1px #ccc;
+        border: 1px solid #eee;
+        margin: 16px 0;
+        height: 200vh;
+        width: 96vw;
+        border-radius: 24px;
+      }
+
+      .fab-button {
+        position: fixed;
+        right: 24px;
+        bottom: 24px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        vertical-align: center;
+        font-size: 32px;
+        line-height: 2.2rem;
+        background: lightcoral;
+        color: white;
+        border: none;
+        box-shadow: 4px 4px 12px 1px #aaa;
+      }
+    </style>
+
+    <title>Fixed</title>
+  </head>
+  <body>
+    <div class="fab-button">+</div>
+    <main class="card" />
+  </body>
+</html>

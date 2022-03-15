@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
+
+    <style>
+      .container {
+        position: relative;
+        background: lightgreen;
+        left: 100px;
+      }
+
+      .absolute-children {
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        background: lightcoral;
+      }
+
+      .normal-children {
+        display: inline-block;
+        height: 80px;
+        width: 80px;
+        background: lightblue;
+      }
+    </style>
+
+    <title>Absolute</title>
+  </head>
+  <body>
+    <div class="container">
+      Container
+      <div class="absolute-children">
+        Absolute children
+      </div>
+
+      <div class="normal-children">
+        <span>Normal children</span>
+      </div>
+      <div class="normal-children"></div>
+      <div class="normal-children"></div>
+    </div>
+  </body>
+</html>
